@@ -1,0 +1,231 @@
+body{
+	background-color: black;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0 !important; 
+}
+
+a{
+	
+	color: red;
+	text-decoration: none;
+		
+}
+a:visited{
+	
+	color: green;
+	
+}
+
+a:hover{
+	
+	color: white;
+	
+	
+}
+#strona {
+	background-color: #222222;
+	width: 1850px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#baner {
+	background-color: #111111;
+	
+	
+	
+}
+#menu_up{
+	background-color: #121212;
+	padding:2px;
+}
+.link_up{
+	
+	height: 35px;
+	color: white;
+	font-size:18px;
+	float: left;
+	width: 13%;
+	text-align: center;
+	font-size: 23px;
+	border-right: 2px dotted #cccccc;
+}
+.link_up:hover{
+	color:yellow;
+	background-color: #010101;
+	font-size: 29px;
+	
+}
+#zegar{
+	float: right;
+	background-color:#3b3b3b;
+	color: white;
+	
+}
+.reset{
+	clear: both;
+}
+
+#menu_l{
+	float: left;
+	width: 175px;
+	height: 500px;
+	text-align: left;
+	background-color: #111111;
+	margin-top: 5px;
+	padding: 5px;
+	
+	
+}
+.link_l{
+	height: 40px;
+	color: #ffffff;
+	border-bottom: 2px dotted #4f4f4f;
+	text-decoration: none;
+	padding: 2px;
+}
+.link_l:hover{
+	background-color: #000000;	
+	border-bottom: 2px dotted #3c3c3c;
+	color: yellow;
+	text-decoration:none;
+	font-size: 22px;
+}
+#tresc{
+	float:left;
+	text-align:justify;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 2px;
+	width: 1633px;
+	
+}
+#stopka{
+	clear: both;
+	text-align: center;
+	background-color: #1f221f;
+	margin-top:10px;
+	padding: 5px;
+	
+}
+#formularz{
+	padding: 5px;
+	border: 1px solid gray;
+	padding: 2px;
+	min-width: 225px;
+	max-width: 225px;
+	min-height: 150px;
+	max-height: 150px;
+	margin-left: 3px;
+	color: #DDDDDD;
+	
+}
+input[type=text],
+input[type=password] {
+	background-color: #444;
+	color: #fafafa;
+	width: 200px;
+	height: 20px;
+	border: 1px solid red;
+	margin-top:7px;
+	margin-bottom:2px;
+	margin-left: 5px;
+	
+}
+input[type=text]:focus,
+input[type=password]:focus {
+	-webkit-box-shadow: 0px 3px 122px 3px rgba(193,201,87,1);
+	-moz-box-shadow: 0px 3px 122px 3px rgba(193,201,87,1);
+	box-shadow: 0px 3px 122px 3px rgba(193,201,87,1);
+	border: 1px solid red;
+	background-color: gray;
+}
+input[type=submit]{
+	background: #1f7f1f;
+	color: #fafafadf;
+	text-align: center;
+	width: 200px;
+	height: 25px;
+	border: 1px solid #0b6b0b;	
+
+}
+#kalendarz{
+	color: #121212;
+	width: 1100px;
+	height: 400px;
+}
+#name{
+	
+	color:red;
+	
+}
+
+table#cal{
+	border: 2px solid black;
+	background-color: gray;
+}
+
+
+
+table#cal  th{
+	border: 2px solid black;
+	background-color: white;
+	width:13%;
+	height:100px;	
+	text-align:left;
+	vertical-align:top;
+}
+table#cal th.nazwadnia{
+	
+	height: 30px;
+	background-color: #616161;	
+	text-align: center;
+	vertical-align: middle;
+	width:175px;
+
+}
+.wygtydzien{
+	
+	height:375px;
+	
+}
+table#cal .teraz:hover{
+	
+	background-color: yellow;
+}
+table#cal .stare:hover,table#cal .nowe:hover {
+	background-color: green;
+	
+}
+table#cal .stare,table#cal .nowe{
+	color: gray;
+	background-color: darkgrey;	
+}
+table#cal .teraz{
+	color: red;	
+	background-color: #F3F0F0;	
+}
+table#cal #obecnyDzien{
+	background-color: blue;
+}
+table#cal #obecnyDzien:hover{
+	color: darkred;
+	background-color: darkblue;
+}
+.odcinekWKalendarzu{
+	font-size: 16px;
+	color: black;
+	
+}
+input[type=text].playlista{
+	margin-left: 10px;
+	width: 750px;
+	
+}
+input[type=text].playlistaOpis{
+	width: 750px;
+	height: 250px;
+	
+}
