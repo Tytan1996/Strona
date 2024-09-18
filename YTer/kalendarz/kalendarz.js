@@ -1,5 +1,4 @@
 	
-
 	var data1 = new Date();
 	var dzien = data1.getDate();
 	var miesiac = data1.getMonth();
